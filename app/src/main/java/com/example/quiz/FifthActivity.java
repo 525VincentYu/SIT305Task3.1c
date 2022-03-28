@@ -24,7 +24,7 @@ public class FifthActivity extends FourthActicity {
         setContentView(R.layout.acticity_fifth);
         welcome = (TextView) findViewById(R.id.textViewWel);
         error = (TextView) findViewById(R.id.textViewError);
-        welcome.setText("Wellcome  " + name);
+
         but1 = findViewById(R.id.button1);
         but2 = findViewById(R.id.button2);
         but3 = findViewById(R.id.button3);

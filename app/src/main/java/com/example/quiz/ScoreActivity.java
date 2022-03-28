@@ -34,6 +34,7 @@ public class ScoreActivity extends SixthActivity {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.buttonNew:
+                    score = 0;
                     Intent intent= new Intent();
                     intent.setClass(ScoreActivity.this, SecondActivity.class);
                     startActivity(intent);
