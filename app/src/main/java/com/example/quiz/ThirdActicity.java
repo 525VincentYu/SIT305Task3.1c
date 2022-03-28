@@ -74,7 +74,6 @@ public class ThirdActicity extends SecondActivity {
                     intent.setClass(ThirdActicity.this ,FourthActicity.class);
                     startActivity(intent);
                     finish();
-
                 }
             }
         });

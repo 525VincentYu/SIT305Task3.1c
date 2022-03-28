@@ -38,6 +38,7 @@ public class ScoreActivity extends SixthActivity {
                     Intent intent= new Intent();
                     intent.setClass(ScoreActivity.this, SecondActivity.class);
                     startActivity(intent);
+                    finish();
                     break;
                 case R.id.buttonFinish:
                     finish();
