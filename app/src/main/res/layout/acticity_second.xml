@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center"
+    android:id="@+id/layout">
+
+    <TextView
+        android:id="@+id/textViewWel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="1dp"
+            android:text="1/5"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/pro1"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_width="347dp"
+            android:layout_height="25dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:max="100"
+            android:progress="20"
+            android:progressBackgroundTint="@color/white"
+            android:progressDrawable="@drawable/layer_list_progress_drawable"
+            android:scrollbarThumbHorizontal="@color/material_dynamic_neutral90"
+            android:scrollbarThumbVertical="@color/material_dynamic_neutral80"
+            android:scrollbarTrackHorizontal="@color/material_dynamic_neutral40"
+            android:scrollbarTrackVertical="@color/material_dynamic_neutral60" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Andorid Question Title: Andorid History"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="what year was Android v1.0 first released"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:background="@drawable/shape0"
+            android:text="2003"
+            android:textSize="20sp"
+             />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:background="@drawable/shape0"
+            android:text="2004"
+            android:textSize="20sp"
+             />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:background="@drawable/shape00"
+            android:text="2008"
+            android:textSize="20sp"
+             />
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:text="Submit"
+            android:background="@drawable/shape"
+            android:textSize="22sp"
+            android:textStyle="bold"
+             />
+        <TextView
+            android:id="@+id/textViewError"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#070707"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
